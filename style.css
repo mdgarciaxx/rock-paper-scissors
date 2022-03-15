@@ -1,0 +1,60 @@
+body {
+  font-family: "Arial";
+  font-size: 2rem;
+  color: rgb(4, 75, 28);
+
+  background: linear-gradient(
+    to top,
+    rgba(34, 109, 34, 0.616),
+    rgba(34, 109, 34, 0)
+  );
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+.players {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#player-turn {
+  transform: rotate(90deg) scaleX(-1);
+}
+#computer-turn {
+  transform: rotate(-90deg);
+}
+#player-score,
+#computer-score {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0;
+}
+h3 {
+  text-align: center;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+button {
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(0, 82, 31);
+
+  padding: 1rem;
+}
+#new-game {
+  height: 3em;
+  width: 10em;
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+  margin: auto;
+}
