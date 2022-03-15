@@ -71,4 +71,4 @@ buttons.forEach(buttons => {
 });
 
 newGame();
-document.querySelector('#new-game').addEventListener('click', ()=> newGame());
+document.querySelector('#new-game').addEventListener('click', newGame);
