@@ -1,9 +1,9 @@
 body {
   font-family: "Arial";
   font-size: 2rem;
-  color: rgb(4, 75, 28);
+  color: rgb(255, 255, 255);
 
-  background-color: rgb(18, 161, 49);
+  background-color: rgb(60, 61, 61);
   background-size: cover;
 }
 
@@ -43,7 +43,7 @@ h3 {
 button {
   border: none;
   border-radius: 5%;
-  background-color: rgb(0, 82, 31);
+  background-color: rgba(8, 81, 216, 1);
   padding: 1rem;
 }
 button:hover {
