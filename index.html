@@ -14,15 +14,18 @@
     <div class="players">
       <div id="player">
         <h2 id="player-1">Player</h2>
-        <img id="player-turn" src="./images/rock.png" alt="rock" />
+        <div class="img-container">
+          <img id="player-select" src="./images/rock.png" alt="rock" />
+        </div>
 
         <h3 style="margin-bottom: 0">Player score:</h3>
         <p id="player-score">0</p>
       </div>
       <div id="computer">
         <h2 id="comp-player">Computer</h2>
-        <img id="computer-turn" src="./images/rock.png" alt="rock" />
-
+        <div class="img-container">
+          <img id="computer-select" src="./images/rock.png" alt="rock" />
+        </div>
         <h3 style="margin-bottom: 0">Computer score:</h3>
         <p id="computer-score">0</p>
       </div>
@@ -30,17 +33,19 @@
     <div class="buttons-container">
       <h3>Choose your weapon:</h3>
       <div id="buttons">
-        <button id="btn-rock">
+        <button value="rock" class="btn-player">
           <img src="./images/rock.png" alt="rock button" />
         </button>
-        <button id="btn-paper">
+        <button value="paper" class="btn-player">
           <img src="./images/paper.png" alt="paper button" />
         </button>
-        <button id="btn-scissors">
+
+        <button value="scissors" class="btn-player">
           <img src="./images/scissors.png" alt="scissors button" />
         </button>
       </div>
     </div>
+    <h1 class="winner"></h1>
     <script src="./script.js"></script>
   </body>
 </html>
