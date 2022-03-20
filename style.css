@@ -1,6 +1,6 @@
 body {
   font-family: "Arial";
-  font-size: 2rem;
+  font-size: 1rem;
   color: rgb(255, 255, 255);
 
   background-color: rgb(60, 61, 61);
@@ -11,8 +11,8 @@ h1 {
   text-align: center;
 }
 img {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
 }
 .players {
   display: flex;
@@ -47,10 +47,10 @@ button {
   padding: 1rem;
 }
 button:hover {
-  transition: 0.15s ease-in-out;
+  transition: 0.3;
   transform: scale(1.1);
 
-  background-color: rgba(0, 82, 31, 0.7);
+  background-color: rgba(8, 81, 216, 0.5);
 }
 #new-game {
   height: 3em;
@@ -65,4 +65,9 @@ button:hover {
 }
 .img-container {
   height: 200px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
